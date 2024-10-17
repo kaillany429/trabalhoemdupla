@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* corpo do site */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+    padding: 0px;
+    background-color: rgb(113, 191, 255);
+}
+
+
+/* cabeçalho */
+header{
+background-color:#3a8fd4;
+color: #000;
+padding: 10px 0;
+text-align: center;
+}
+
+
+/* mudar a cor da letra quando o mouse estiver encima */
+nav ul li a:hover{
+color: #0053b3;
+}
+
+/* mudar os textos*/
+p {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* mudar o titulo */
+header h1{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+/* formatar o formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    padding: 10px;
+}
+
+
+form label{
+    margin-top: 10px;
+}
+
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #41d2f7;
+    border-radius: 5px;
+}
+
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1a6ece;
+    color: antiquewhite;
+    border: none;
+    cursor: auto;
+    color: #72a7e2;
+    font-size: 15px;
+    transition: background-color 0.5s, transform 1s ease;
+    height: 40%;
+    width: 40%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+
+form button:hover {
+    background-color: #002794;
+}
+
+/* formatar a tabela*/
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+
+table,th,td{
+    border: 3px solid #2a9ac7;
+    padding: 15px;
+    text-align: left;
+}
+
+/* arrumar as imagens */
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #000000;
+    color: azure;
+    text-align: center;
+    padding: 10px 9px;
+    margin-top: 20px;
+}
+
+
+caption{
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+/* mudar os subtitulos*/
+h2{
+    text-align: center;
+}
+
+
+/* para deixar responsivo */
+@media(max-width:768px) {
+    .main-content{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+    img {
+        margin-right: 20px;
+        height: auto;
+        max-width: 100%;
+    }
+
+  nav ul li a {
+    padding: 30px;
+    display:contents;
+margin: 0 15px;
+    }
+    }
+    
